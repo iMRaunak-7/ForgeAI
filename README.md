@@ -1,7 +1,7 @@
 # ⚡ ForgeAI
 
 ForgeAI is an **AI-powered productivity suite** that helps users write articles, generate blog titles, create images, review resumes, and much more — all from a single dashboard.  
-Built with **React + Vite** on the frontend, **Clerk for authentication**, and deployed on **Vercel**.
+Built with **React + Vite** on the frontend, **Clerk for authentication**, **PostgreSQL for database**, **Cloudinary for media storage**, and deployed on **Vercel**.
 
 ---
 
@@ -13,6 +13,8 @@ Built with **React + Vite** on the frontend, **Clerk for authentication**, and d
 - 🎨 **Background/Object Removal** – Clean up and edit your images instantly.  
 - 📄 **Resume Review** – Get AI feedback on resumes.  
 - 👥 **Community** – Share and collaborate with other users.  
+- ☁️ **Cloudinary Integration** – Store, manage, and optimize media files.  
+- 🗄️ **PostgreSQL Database** – Secure and reliable data storage.  
 - 🔒 **Authentication & Plans** – Powered by [Clerk](https://clerk.dev), with **Free** and **Elevate** plans.
 
 ---
@@ -20,6 +22,9 @@ Built with **React + Vite** on the frontend, **Clerk for authentication**, and d
 ## 🚀 Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS, Lucide Icons  
+- **Backend:** Node.js (API)  
+- **Database:** PostgreSQL  
+- **Media Storage:** Cloudinary  
 - **Authentication:** Clerk  
 - **Deployment:** Vercel  
 
@@ -30,6 +35,6 @@ Built with **React + Vite** on the frontend, **Clerk for authentication**, and d
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/iMRaunak-7/ForgeAI.git
+git clone https://github.com/<your-username>/ForgeAI.git
 cd ForgeAI
 npm install
