@@ -35,6 +35,6 @@ Built with **React + Vite** on the frontend, **Clerk for authentication**, **Pos
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/ForgeAI.git
+git clone https://github.com/iMRaunak-7/ForgeAI.git
 cd ForgeAI
 npm install
